@@ -12,7 +12,7 @@ body {
 
 /*-- Header Section --*/
 
-.head  {
+.main  {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,4 +50,29 @@ nav span {
     color: seashell;
   }
 
- /*-- Mission Section --/
+ /*-- Mission Section --*/
+
+#mission {
+  height: 700px;
+  display: flex;
+  align-content: center;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+
+
+
+
+
+h2,
+h4 {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+
+}
