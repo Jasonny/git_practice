@@ -1,0 +1,94 @@
+/* Universal Styles */
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+line-height: 1.4;
+
+
+
+}
+
+
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* Header Section */
+
+ header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+ }
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding-left: 24px;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+
+  }
+
+  .colmar {
+    font-weight: bold;
+  }
+
+  .academy {
+    color: hsl(20, 50%, 15%);
+    opacity: 0.5;
+  }
+
+
+  header nav {
+   padding-right: 24px;
+  }
+
+  .desktop a {
+    padding-left: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(57, 56, 56);
+
+  }
+
+  .desktop a:hover {
+    color: #FA3535;
+  }
+
+  .desktop a:active {
+    color: #1561F6;
+  }
+
+
+  nav.mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 480px) {
+  nav.desktop {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+
+   nav.mobile {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 24px;
+
+
+  }
+}
